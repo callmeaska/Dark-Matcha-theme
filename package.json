@@ -1,0 +1,26 @@
+{
+  "name": "dark-matcha",
+  "displayName": "Dark Matcha",
+  "description": "Dark Matcha theme by svshi.zip",
+  "version": "0.0.1",
+  "publisher": "svshi.zip",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/callmeaska/Dark-Matcha-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.69.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Matcha",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark Matcha-color-theme.json"
+      }
+    ]
+  }
+}
